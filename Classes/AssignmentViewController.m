@@ -8,6 +8,7 @@
 
 #import "Assignments.h"
 #import "AssignmentViewController.h"
+#import "AssignmentWebViewController.h"
 
 @implementation AssignmentViewController
 
@@ -140,6 +141,11 @@
 	 [self.navigationController pushViewController:detailViewController animated:YES];
 	 [detailViewController release];
 	 */
+	
+	AssignmentWebViewController *detailViewController = [[AssignmentWebViewController alloc] initWithNibName:@"AssignmentWebViewController" bundle:nil];
+	detailViewController.assignmentNumber = [self.assignments assignmentAtIndex:indexPath.row];
+	[self.navigationController pushViewController:detailViewController animated:YES];
+	[detailViewController release];
 }
 
 
