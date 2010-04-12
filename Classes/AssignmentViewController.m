@@ -9,7 +9,6 @@
 #import "Assignments.h"
 #import "AssignmentViewController.h"
 
-
 @implementation AssignmentViewController
 
 @synthesize assignments;
