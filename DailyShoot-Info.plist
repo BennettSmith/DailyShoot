@@ -26,5 +26,14 @@
 	<true/>
 	<key>NSMainNibFile</key>
 	<string>MainWindow</string>
+	<key>NSMainNibFile~ipad</key>
+	<string>MainWindow-iPad</string>
+	<key>CFBundleIconFiles</key>
+	<array>
+		<string>icon.png</string>
+		<string>icon-ipad.png</string>
+		<string>Icon-Small.png</string>
+		<string>Icon-Small-50.png</string>
+	</array>
 </dict>
 </plist>
